@@ -26,7 +26,7 @@ namespace BaiTapLinq.BaiTapLinQ2
         {
             return new List<Position>()
             {
-                new Position{Id = 1, Title = "Developer"},
+                new Position{Id = 1, Title = "Dev"},
                 new Position{Id = 2, Title = "Tester"},
                 new Position{Id = 3, Title = "QA"}
             };

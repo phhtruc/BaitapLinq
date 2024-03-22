@@ -34,7 +34,7 @@ namespace BaiTapLinq.BaiTapLinQ2
         {
             return new List<Employee>()
             {
-                new Employee{Id = 1, Name = "Nam", Birthday = new DateTime(1995, 8, 20), Salary = 60000, DepartmentId = 2, PositionId = 2 },
+                new Employee{Id = 1, Name = "Nam", Birthday = new DateTime(1995, 8, 20), Salary = 60000, DepartmentId = 1, PositionId = 1 },
                 new Employee{Id = 2, Name = "Linh", Birthday = new DateTime(1992, 4, 10), Salary = 55000, DepartmentId = 2, PositionId = 3 },
                 new Employee{Id = 3, Name = "Minh", Birthday = new DateTime(1988, 10, 5), Salary = 70000, DepartmentId = 3, PositionId = 1 },
                 new Employee{Id = 4, Name = "Hoa", Birthday = new DateTime(1987, 12, 15), Salary = 65000, DepartmentId = 3, PositionId = 2 },

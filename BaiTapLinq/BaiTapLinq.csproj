@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BaiTapLinq.BaiTapLinQ2.MainLinq2</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,6 +50,7 @@
     <Compile Include="BaiTapLinQ1\Program.cs" />
     <Compile Include="BaiTapLinQ2\Department.cs" />
     <Compile Include="BaiTapLinQ2\Employee.cs" />
+    <Compile Include="BaiTapLinQ2\MainLinq2.cs" />
     <Compile Include="BaiTapLinQ2\Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaiTapLinQ1\Truck.cs" />
