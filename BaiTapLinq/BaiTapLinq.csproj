@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="BaiTapLinQ1\Car.cs" />
     <Compile Include="BaiTapLinQ1\Program.cs" />
+    <Compile Include="BaiTapLinQ2\Department.cs" />
+    <Compile Include="BaiTapLinQ2\Employee.cs" />
+    <Compile Include="BaiTapLinQ2\Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaiTapLinQ1\Truck.cs" />
     <Compile Include="BaiTapLinQ1\Vehicle.cs" />
@@ -52,8 +55,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BaiTapLinQ2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
